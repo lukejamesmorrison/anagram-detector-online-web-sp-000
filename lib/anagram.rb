@@ -13,7 +13,8 @@ class Anagram
     matches = []
     
     words.each do |word|
-  end
+      
+    end
   end
   
 end

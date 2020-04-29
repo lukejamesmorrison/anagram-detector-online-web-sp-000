@@ -11,6 +11,8 @@ class Anagram
     
     word_sorted = @word.chars.sort.join
     
+    puts word_sorted
+    
   end
   
 end

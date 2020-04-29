@@ -15,6 +15,8 @@ class Anagram
     words.each do |word|
       
       if word.chars.sort.join ===  word_sorted
+        matches << word
+      end
     end
   end
   

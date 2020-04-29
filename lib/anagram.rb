@@ -6,9 +6,10 @@ class Anagram
     @word = word
   end
   
+  
   def match(words)
     
-    
+    word_sorted = 
     
   end
   

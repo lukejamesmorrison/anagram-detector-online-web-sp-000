@@ -9,7 +9,7 @@ class Anagram
   
   def match(words)
     
-    word_sorted = 
+    word_sorted = @word.chars.sort.join
     
   end
   

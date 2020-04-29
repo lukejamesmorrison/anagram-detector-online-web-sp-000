@@ -17,9 +17,10 @@ class Anagram
       if word.chars.sort.join ===  word_sorted
         matches << word
       end
-      
-    marches
+    
     end
+    
+    matches
   end
   
 end

@@ -10,8 +10,9 @@ class Anagram
   def match(words)
     
     word_sorted = @word.chars.sort.join
+    matches = []
     
-    puts word_sorted
+    words.each do |word|
     
   end
   
